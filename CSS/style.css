@@ -1,0 +1,100 @@
+/* 共通部分 */
+.html {
+  font-size: 100%;
+}
+.body {
+  font-family: sans-serif;
+}
+.wrapper {
+  width: 1300px;
+}
+
+/* header */
+.logo {
+  width: 210px;
+  margin-top: 13px;
+}
+.header-nav {
+  display: flex;
+  float: right;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  list-style: none;
+}
+.header-nav li {
+  margin: 10px;
+}
+.header-nav a {
+  color: black;
+}
+.header-nav a:hover {
+  color: darkblue;
+}
+
+/* top-page */
+.relative_img {
+  margin-left: 30%;
+  margin-top: 5%;
+  display: block;
+  width: 70%;
+}
+.absolute1 {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  font-size: 90px;
+  color: #b6195d;
+  font-family: "Gloria Hallelujah", cursive;
+  font-family: "Indie Flower", cursive;
+}
+.absolute2 {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  left: 5%;
+  font-size: 25px;
+  margin: 50px 0 0 0;
+  color: #b6195d;
+  line-height: 2;
+}
+.text1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.text2 {
+  color: gray;
+}
+
+/* News */
+.content-news {
+  font-family: "Indie Flower", cursive;
+  margin: 30px;
+}
+
+.content-news {
+  font-size: 14px;
+}
+
+.content-news li {
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+.news-list {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.label {
+  background-color: blue;
+  border-radius: 50px;
+  color: #fff;
+  padding: 2px 5px;
+  margin: 0 20px;
+}
+.text {
+}
+
+/* about */
