@@ -110,10 +110,15 @@ nav ul li a {
   background-color: rgb(206, 200, 200);
 }
 
+.about-ttl {
+  text-align: center;
+}
+
 img {
   width: 20%;
+  display: flex;
 }
 
 .about-text {
- text-align: left;
+
 }
