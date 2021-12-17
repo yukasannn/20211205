@@ -106,3 +106,14 @@ nav ul li a {
 }
 
 /*about */
+.about {
+  background-color: rgb(206, 200, 200);
+}
+
+img {
+  width: 20%;
+}
+
+.about-text {
+ text-align: left;
+}
