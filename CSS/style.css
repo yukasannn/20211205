@@ -91,18 +91,12 @@ nav ul li a {
   border-bottom:1px solid #000;
 }
 
-.day{
-  
-}
 .label{
   background-color:blue;
   border-radius:30px;
   color:#fff;
   padding:2px 5px;
   margin:0 20px;
-}
-.text{
-  
 }
 
 /*about */
@@ -121,25 +115,32 @@ nav ul li a {
 
 img {
   width: 25%;
-  margin: 10px 15vw 0 auto;
-  
+  margin: 10px 15vw 0 15vw;
 }
 
 .about-text-box p {
-  width: 25vw;
-  margin-left: 18vw;
+  width: 30vw;
+  margin-left: 15vw;
   margin-top: 40px;
 }
 
 /*service*/
+.service-ttl {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
 .grid__parent {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   display: grid;
   grid-template-rows: 300px 300px;
   grid-template-columns: 1fr 1fr;
 }
 
+.box-title {
+  text-align: center;
+}
 .service-box1 {
   grid-column: 1/2;
   grid-row: 1/3;
