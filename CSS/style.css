@@ -69,15 +69,20 @@ nav ul li a {
 }
 
 /*News */
-.content-news {
+.news {
   width: 100%;
   margin-top: 10px;
 }
 
+.news-ttl {
+  margin-left: 30%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
 .news-list {
   text-align: center;
-  width: 50%;
-  margin: 10px auto;
+  width: 70%;
 }
 
 .news-list li{
@@ -99,3 +104,5 @@ nav ul li a {
 .text{
   
 }
+
+/*about */
