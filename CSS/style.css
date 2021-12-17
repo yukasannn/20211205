@@ -107,18 +107,30 @@ nav ul li a {
 
 /*about */
 .about {
-  background-color: rgb(206, 200, 200);
+  background-color: rgb(202, 200, 200);
+  width: 100%;
+  margin: 60px 20px 60px 20px;
 }
 
 .about-ttl {
+  margin-bottom: 10px;
   text-align: center;
 }
 
 img {
   width: 20%;
-  display: flex;
+  margin: 0 20vw 0 auto;
+  display: inline-block
 }
 
-.about-text {
+.about-text-box {
+  width: 30vw;
+  margin-left: 10vw;
+  margin-top: 20px;
+  vertical-align:top
+}
 
+/*service*/
+.grid {
+  display: grid;
 }
