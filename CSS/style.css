@@ -151,16 +151,28 @@ nav ul li a {
   background: #fc0b53;
 }
 
+.card-img1 {
+  width: 100px;
+}
+
 .box2 {
   grid-column: 2/3;
   grid-row: 1/2;
   background: #5619b8;
 }
 
+.card-img2 {
+  width: 100px;
+}
+
 .box3 {
   grid-column: 2/3;
   grid-row: 2/3;
   background: #338f5c;
+}
+
+.card-img3 {
+  width: 100px;
 }
 
 .box-text {
@@ -174,7 +186,7 @@ nav ul li a {
   width: 80%;
   margin: 0 auto;
 }
-.content-img {
+.blog-img img {
   width: 100px;
   height: auto;
 }
@@ -187,7 +199,7 @@ nav ul li a {
 .text-box {
   padding: 15px;
 }
-.content-img {
+.blog-img {
   padding: 10px 0;
   text-align: center;
   background: #e1f3ff;
@@ -224,4 +236,3 @@ nav ul li a {
   font-size: 2em;
   color: #fff;
 }
-
