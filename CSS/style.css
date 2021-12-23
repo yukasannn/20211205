@@ -72,9 +72,15 @@ nav ul li a {
 
 .main-absolute2 {
   position: absolute;
-  top: 10%;
+  top: 60%;
   left: 15%;
+  font-size: 30px;
+  color: #af0236;
+}
+
+.main-absolute2 p {
   font-size: 20px;
+  color: #000;
 }
 
 /*News */
